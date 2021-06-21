@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:inputType="number"
+        android:key="portrait_columns"
+        android:singleLine="true"
+        android:title="纵屏列数" />
+
+    <EditTextPreference
+        android:key="landscape_columns"
+        android:singleLine="true"
+        android:title="横屏列数" />
+
+</PreferenceScreen>
